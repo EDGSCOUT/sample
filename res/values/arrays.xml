@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="set_per_day">
+        <item>每天计算</item>
+        <item>每周计算</item>
+        <item>每月计算</item>
+    </string-array>
+    <string-array name="value_per_day">
+        <item>Day</item>
+        <item>Week</item>
+        <item>Month</item>
+    </string-array>
+    <string-array name="checkbox_info">
+        <item>应用程序</item>
+        <item>安装包信息</item>
+        <item>呼叫信息</item>
+        <item>相机按键</item>
+        <item>配置信息</item>
+        <item>联系人信息</item>
+        <item>日期时间改变信息</item>
+        <item>GPS信息</item>
+        <item>耳机信息</item>
+        <item>充电信息</item>
+        <item>开关机信息</item>
+        <item>屏幕信息</item>
+        <item>服务程序信息</item>
+        <item>短信息</item>
+        <item>壁纸信息</item>
+    </string-array>
+    <string-array name="value_checkbox_info">
+        <item>Day</item>
+        <item>Week</item>
+        <item>Month</item>
+    </string-array>
+    <string-array name="empty_array" />
+
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory>
+        <ListPreference
+            android:key="per_time"
+            android:title="@string/set_compute_time" 
+            android:entries="@array/set_per_day"
+            android:entryValues="@array/value_per_day"/>
+    </PreferenceCategory>
+    <PreferenceCategory>
+         <CheckBoxPreference
+                android:key="checkbox_openclose"
+                android:title="@string/set_openclose" />
+         <CheckBoxPreference
+                android:key="checkbox_application"
+                android:title="@string/set_application" />
+         <CheckBoxPreference
+                android:key="checkbox_install"
+                android:title="@string/set_install" />
+         <CheckBoxPreference
+                android:key="checkbox_set"
+                android:title="@string/set_set" />
+         <CheckBoxPreference
+                android:key="checkbox_contact"
+                android:title="@string/set_contact" />
+         <CheckBoxPreference
+                android:key="checkbox_gps"
+                android:title="@string/set_gps" />
+         <CheckBoxPreference
+                android:key="checkbox_call"
+                android:title="@string/set_call" />
+         <CheckBoxPreference
+                android:key="checkbox_camera"
+                android:title="@string/set_camera" />
+         <CheckBoxPreference
+                android:key="checkbox_datechange"
+                android:title="@string/set_datechange" />
+         <CheckBoxPreference
+                android:key="checkbox_headphone"
+                android:title="@string/set_headphone" />
+         <CheckBoxPreference
+                android:key="checkbox_charge"
+                android:title="@string/set_charge" />
+         <CheckBoxPreference
+                android:key="checkbox_screen"
+                android:title="@string/set_screen" />
+         <CheckBoxPreference
+                android:key="checkbox_service"
+                android:title="@string/set_service" />
+         <CheckBoxPreference
+                android:key="checkbox_message"
+                android:title="@string/set_message" />
+         <CheckBoxPreference
+                android:key="checkbox_wallpaper"
+                android:title="@string/set_wallpaper" />
+         
+    </PreferenceCategory> 
+</PreferenceScreen>

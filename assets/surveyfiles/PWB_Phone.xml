@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE questionnaire SYSTEM "Questionnaire.dtd">
+
+
+<!--
+心理幸福感：
+	sa Self-acceptance 自我接纳
+	pl Purpose in Life 生活目标
+	em Environmental mastery 环境控制
+	pg Personal growth 个人成长
+	pr Positive relations 与他人的积极关系
+	ai Autonomy items 自主性
+	
+	ss Society satisfactory 生活满意度
+	pp Positive 积极情绪
+	nn Negitive 消极情绪
+  oh Oxford Happiness 44-最后 幸福感
+
+	01-18	sa sa pl em sa			pr pl em em pl
+			pg pg pr pg ai			pr ai ai
+	19-23 	avg
+	24-44 	pn	pnpnn	nppnp	npnpp	npn 
+  
+  
+-->
+
+<questionnaire>
+  <description>
+    <identifier>PWB_Phone</identifier>
+    <caption>心理幸福感</caption>
+    <information><![CDATA[	  以下问卷涉及到您近期对生活的感受与看法，无好坏之分，请您仔细阅读每道题目，并根据自己的真实意见或感受，逐项回答您对下列每一语句的同意程度。]]>
+	</information>
+    <interfacetype>CompareToAverage</interfacetype>
+  </description>
+
+  <questions>
+  
+	<question qid="q01" >
+      <title>在很多方面，我的生活与我的理想很接近。（共七个选项）</title>
+      <answer aid="a0" score="0">非常不同意</answer>
+      <answer aid="a1" score="1">不同意</answer>
+	  <answer aid="a2" score="2">有些不同意</answer>
+	  <answer aid="a3" score="3">不确定</answer>
+	  <answer aid="a4" score="4">有些同意</answer>
+	  <answer aid="a5" score="5">同意</answer>
+	  <answer aid="a6" score="6">非常同意</answer>
+    </question>
+	
+	<question qid="q02">
+      <title>我的生活状况非常好。（共七个选项）</title>
+      <answer aid="a0" score="0">非常不同意</answer>
+      <answer aid="a1" score="1">不同意</answer>
+	  <answer aid="a2" score="2">有些不同意</answer>
+	  <answer aid="a3" score="3">不确定</answer>
+	  <answer aid="a4" score="4">有些同意</answer>
+	  <answer aid="a5" score="5">同意</answer>
+	  <answer aid="a6" score="6">非常同意</answer>
+    </question>
+	
+	<question qid="q03">
+      <title>我对自己的生活感到满意。（共七个选项）</title>
+      <answer aid="a0" score="0">非常不同意</answer>
+      <answer aid="a1" score="1">不同意</answer>
+	  <answer aid="a2" score="2">有些不同意</answer>
+	  <answer aid="a3" score="3">不确定</answer>
+	  <answer aid="a4" score="4">有些同意</answer>
+	  <answer aid="a5" score="5">同意</answer>
+	  <answer aid="a6" score="6">非常同意</answer>
+    </question>
+	
+	<question qid="q04">
+      <title>到目前为止，生活中我已经得到了我想要的重要的东西。（共七个选项）</title>
+      <answer aid="a0" score="0">非常不同意</answer>
+      <answer aid="a1" score="1">不同意</answer>
+	  <answer aid="a2" score="2">有些不同意</answer>
+	  <answer aid="a3" score="3">不确定</answer>
+	  <answer aid="a4" score="4">有些同意</answer>
+	  <answer aid="a5" score="5">同意</answer>
+	  <answer aid="a6" score="6">非常同意</answer>
+    </question>
+	
+	<question qid="q05">
+      <title>如果有来世，我几乎不会改变目前的生活方式。（共七个选项）</title>
+      <answer aid="a0" score="0">非常不同意</answer>
+      <answer aid="a1" score="1">不同意</answer>
+	  <answer aid="a2" score="2">有些不同意</answer>
+	  <answer aid="a3" score="3">不确定</answer>
+	  <answer aid="a4" score="4">有些同意</answer>
+	  <answer aid="a5" score="5">同意</answer>
+	  <answer aid="a6" score="6">非常同意</answer>
+    </question>
+    
+  </questions>
+  
+
+  <remarks>
+	<remark>幸福感是一种心理体验，它既是对生活的客观条件和所处状态的一种事实判断，又是对于生活的主观意义和满足程度的一种价值判断。它表现为在生活满意度基础上产生的一种积极心理体验。如果您的得分高于20分，则您的幸福感处于高分水平；如果得分低于10分，您的幸福感体验比较低，请注意及时调节自己的状态或者进行专业的咨询。</remark>
+  </remarks>
+
+</questionnaire>

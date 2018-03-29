@@ -1,0 +1,15 @@
+package wsi.psyadjustbook;
+
+import android.app.Activity;
+import android.os.Bundle;
+
+public class PractiseActivity extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+	}
+	
+
+}

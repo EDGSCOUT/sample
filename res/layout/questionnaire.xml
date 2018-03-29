@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:stretchColumns="0.1"
+    android:weightSum="1" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutquestion1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/tableLayoutquestion1"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        android:weightSum="1" >
+
+        <ScrollView
+            android:id="@+id/scrollViewquestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.85"
+            android:paddingTop="35dp" >
+
+            <LinearLayout
+                android:id="@+id/linearLayoutquestionnaire1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/pagecontent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:capitalize="none"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="30dp"
+                    android:paddingTop="35dp"
+                    android:text="\t下面是一些关于个人生活态度的描述，请在每项描述后面的选项中选择最能代表你日常体验的答案。由于每个人的态度都是不同的，因此你的回答没有“对”或“错”之分。
+"
+                    android:textColor="#FF888888"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/objectquestion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="helloworld"
+                    android:textColor="#FFFF88FF"
+                    android:textSize="15dp" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroupquestion1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="0.10"
+                    android:background="#00000000"
+                    android:orientation="vertical" >
+                </RadioGroup>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <TableLayout
+        android:id="@+id/tableLayoutquestion1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/bake"
+        android:shrinkColumns="0" >
+
+        <TableRow
+            android:id="@+id/menubarquestion1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <ImageButton
+                android:id="@+id/homequestion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/home" >
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/arrowleftquestion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/arrowleft" >
+            </ImageButton>
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/questionprogress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="hello" />
+
+                <ProgressBar
+                    android:id="@+id/progressBarquestion1"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+                </ProgressBar>
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/arrowrightquestion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/arrowright" >
+            </ImageButton>
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/psy_compute" android:title="预测" />
+    <item android:id="@+id/psy_table" android:title="测评" />
+    <item android:id="@+id/psy_psy" android:title="自助" />
+    <item android:id="@+id/psy_recommend" android:title="推荐" />
+    <item android:id="@+id/psy_set" android:title="设置" />
+</menu>

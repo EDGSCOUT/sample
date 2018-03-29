@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello!</string>
+    <string name="app_name">中科心解</string>
+    <string name="add_values">Add values to the chart</string>
+    <string name="x">X</string>
+    <string name="y">Y</string>
+    <string name="add">Add</string>
+    <string name="new_series">New series</string>
+    <string name="butrecommend">推 荐</string>
+    <string name="butmain">首页</string>
+    <string name="recommend">\t根据您的得分我们向您推荐一些心理资源，供您参考，请点击推荐按钮</string>
+    <string name="checkbox_preference">信息设置</string>
+    <string name="set_compute_time">计算时间设置</string>
+    <string name="day_week_month">天/周/月</string>
+    
+    <!-- checkbox -->
+    <string name="set_openclose">开关机信息</string>
+    <string name="set_application">应用程序</string>
+    <string name="set_install">安装包信息</string>
+    <string name="set_set">配置信息</string>
+    <string name="set_contact">联系人信息</string>
+    <string name="set_gps">GPS信息</string>
+    <string name="set_call">呼叫信息</string>
+    <string name="set_camera">相机按键</string>
+    <string name="set_datechange">日期改变信息</string>
+    <string name="set_headphone">耳机信息</string>
+    <string name="set_charge">充电信息</string>
+    <string name="set_screen">屏幕信息</string>
+    <string name="set_service">服务程序信息</string>
+    <string name="set_message">短信息</string>
+    <string name="set_wallpaper">壁纸信息</string>
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+
+    <string name="about">\t中国有一句古话：人生不如意之事常八九。在日常生活中，我们每个人都免不了会体验到一些负性情绪，而“抑郁”就是这样一种消极情绪状态。短暂性的情绪低落本来无可厚非，但当我们长时间沉溺在这种消极状态之中无法自拔时，一些心理健康方面的问题也就可能会随之产生，例如被大家所熟知的“抑郁症”。\n\t形象地说，抑郁症就是一种“情绪流感”，它会对患者的家庭、工作、学习、日常饮食、睡眠以及其它身体功能方面产生负面影响。根据世界卫生组织2002年的统计数据显示，全球约有1.54亿人患有抑郁症。\n\t面对这种“情绪流感”，乐观的治疗态度与积极的求治行为无疑是获得最佳防治效果的重要保障。目前，心理咨询被认为是治疗抑郁症的主要手段之一，尤其是针对儿童和18岁以下的青少年来说，只有在结合心理咨询的前提下才能给予必要的药物治疗。一次成功的心理咨询不仅对抑郁症具有良好的治疗效果，而且还能够显著降低抑郁复发的可能性。根据1996年的一项科学研究显示，对于中度或重度的抑郁症患者来说，心理咨询甚至可以达到和抗抑郁类药物一样有效的治疗水平。\n\t本心理健康自助程序正是基于心理咨询的原理，为你提供一套详细的心理保健方案，从而最终达到有效防治抑郁症这种“情绪感冒”的目的。\n</string>
+
+    <color name="blue">#FF0000FF</color>
+    <color name="tran">#00000000</color>
+
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:stretchColumns="0.1"
+	android:orientation="vertical" 
+	android:layout_height="match_parent" 
+	android:background="@drawable/background"
+	android:weightSum="1"
+	 android:layout_gravity="center_vertical"
+	 
+	 >
+		<LinearLayout android:id="@+id/LinearLayoutimgtext1" 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent" android:layout_above="@+id/tableLayout1"
+		>
+<!-- 		<TextView android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" /> -->
+			<ScrollView android:id="@+id/ScrollView"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:fillViewport="true"
+			 android:paddingTop="30dp"
+			>
+				<LinearLayout android:id="@+id/LinearLayoutimgtext2" 
+				android:layout_width="match_parent" 
+				android:layout_height="match_parent" 
+				android:orientation="vertical"
+			   
+			      android:paddingLeft="15dp" 
+			      android:paddingRight="12dp" 
+				
+				>
+<!-- 					<TableLayout android:layout_height="wrap_content" android:id="@+id/tableLayout2" android:layout_width="match_parent" android:visibility="gone" > -->
+<!-- 				        <TextView android:id="@+id/objecttext" android:text="hello"  android:layout_width="wrap_content" android:layout_height="wrap_content" ></TextView> -->
+<!-- 				        <RadioGroup android:layout_height="wrap_content" android:layout_weight="0.10" android:id="@+id/radioGroup1" android:layout_width="wrap_content"> -->
+<!-- 				        </RadioGroup> -->
+<!-- 				</TableLayout> -->
+				</LinearLayout>
+			</ScrollView>
+		</LinearLayout>
+        <TableLayout android:id="@+id/tableLayout1" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_alignParentRight="true" android:layout_alignParentLeft="true" android:layout_below="@+id/bake" android:layout_alignParentBottom="true"   android:shrinkColumns="0">
+            <TableRow android:id="@+id/menubar1" android:layout_height="wrap_content" android:layout_width="fill_parent" android:gravity="center_horizontal">
+
+                	<ImageButton android:id="@+id/homebutton" android:src="@drawable/home" android:layout_height="wrap_content" android:layout_width="wrap_content"></ImageButton>
+                	<ImageButton android:id="@+id/backebutton" android:src="@drawable/arrowleft" android:layout_height="wrap_content" android:layout_width="wrap_content"></ImageButton>
+                	<ProgressBar android:id="@+id/progressbar1" style="?android:attr/progressBarStyleHorizontal"  android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center"></ProgressBar>
+<!-- 					<TextView android:id="@+id/progress" android:text="hello" android:layout_gravity="center_vertical" android:layout_height="wrap_content" android:layout_width="wrap_content"/> -->
+                	<ImageButton android:id="@+id/nextbutton" android:src="@drawable/arrowright" android:layout_height="wrap_content" android:layout_width="wrap_content"></ImageButton>
+
+            </TableRow>
+        </TableLayout>
+</RelativeLayout>

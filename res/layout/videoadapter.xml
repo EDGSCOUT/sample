@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:stretchColumns="0.1"
+	android:orientation="vertical" 
+	android:layout_height="match_parent" 
+	android:weightSum="1" android:layout_gravity="center_vertical"
+	android:background="@drawable/background">
+		<LinearLayout android:id="@+id/LinearLayoutvideo1" 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent" 
+		android:orientation="horizontal" 
+		android:layout_above="@+id/tableLayoutvideo1" 
+		 android:layout_gravity="center_vertical|center_horizontal" 
+		 android:visibility="visible"
+		 
+		  android:weightSum="1">
+		  
+		  
+		<ScrollView 
+		android:id="@+id/scrollViewvideo" 
+		android:layout_width="match_parent" 
+		android:paddingTop="35dp" android:layout_height="match_parent">
+		  
+		  
+ 			<LinearLayout android:id="@+id/linearLayoutvideonaire1" 
+ 			android:orientation="vertical" 
+ 			 android:layout_gravity="center_vertical" 
+ 			 android:layout_height="match_parent" 
+ 			 android:layout_width="match_parent">
+			
+			
+				<LinearLayout android:id="@+id/LinearLayoutvideo2" 
+				android:layout_width="match_parent" 
+				android:orientation="vertical"
+			   
+			      android:paddingLeft="15dp" 
+			      android:paddingRight="12dp" android:layout_height="232dp"></LinearLayout>
+			
+			
+ 			</LinearLayout>
+
+		</ScrollView>
+		</LinearLayout>
+        <TableLayout android:id="@+id/tableLayoutvideo1" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_alignParentRight="true" android:layout_alignParentLeft="true" android:layout_below="@+id/bake" android:layout_alignParentBottom="true"   android:shrinkColumns="0">
+            <TableRow android:id="@+id/menubarvideo1" android:layout_height="wrap_content" android:layout_width="fill_parent" android:gravity="center_horizontal">
+                	<ImageButton android:id="@+id/homevideo" android:src="@drawable/home"  android:layout_height="wrap_content" android:layout_width="wrap_content"></ImageButton>
+                	<ImageButton android:id="@+id/arrowleftvideo" android:src="@drawable/arrowleft"  android:layout_height="wrap_content" android:layout_width="wrap_content"></ImageButton>
+                	<ProgressBar android:id="@+id/progressBarvideo1" style="?android:attr/progressBarStyleHorizontal"  android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center"></ProgressBar>
+                	<ImageButton android:id="@+id/arrowrightvideo" android:src="@drawable/arrowright"  android:layout_height="wrap_content" android:layout_width="wrap_content"></ImageButton>
+            </TableRow>
+        </TableLayout>
+</RelativeLayout>

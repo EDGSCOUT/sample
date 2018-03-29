@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:stretchColumns="0.1"
+	android:orientation="vertical" 
+	android:layout_height="match_parent" 
+	android:background="@+color/white"
+	android:weightSum="1" android:layout_gravity="center_vertical">
+		<LinearLayout android:id="@+id/LinearLayoutebookpad1" 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent" 
+		android:layout_above="@+id/TableLayoutebookpad1"
+		android:orientation="vertical">
+				<LinearLayout 
+				android:id="@+id/LinearLayoutebookpad2" 
+				android:orientation="horizontal" 
+				android:layout_height="122dp" android:layout_width="wrap_content" android:layout_gravity="center_horizontal">
+				<TextView android:layout_height="wrap_content" 
+				android:textAppearance="?android:attr/textAppearanceMedium" 
+				android:text="TextView" 
+				android:layout_width="wrap_content" 
+				android:id="@+id/ebookpadintroduction" android:layout_gravity="bottom"></TextView>
+			  </LinearLayout>
+			  <ViewFlipper android:layout_width="wrap_content"
+			   android:layout_height="match_parent"
+			    android:id="@+id/viewFlipperebookpad1" android:layout_gravity="center_horizontal">
+			     <TableLayout android:layout_width="match_parent" android:id="@+id/tableLayout1" android:layout_height="wrap_content">
+				<TableRow android:id="@+id/tableRow1" android:layout_width="fill_parent" android:layout_height="wrap_content"> 
+				<TextView android:layout_height="wrap_content" 
+				android:textAppearance="?android:attr/textAppearanceSmall" 
+				android:text="TextView" 
+				android:layout_width="wrap_content" 
+				android:id="@+id/ebookpadpagenum" android:layout_gravity="right"></TextView>
+				</TableRow>
+				<TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+				<TextView 
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:layout_height="wrap_content" 
+				android:text="TextView" 
+				android:layout_width="wrap_content"
+				 android:id="@+id/ebookpadpagetitle" android:layout_gravity="center"></TextView>
+				</TableRow>
+				<TableRow android:id="@+id/tableRow3" android:layout_height="wrap_content" android:layout_width="match_parent">
+				<TextView 
+				 android:text="\t当下来到西直门上次来京住饼的客店，\n取出三两银子，抛在柜上，说要一间上房。掌柜见\n他出手阔绰，招呼得十分恭敬。韦小宝\n又取出五钱银子，塞进店小二手里，仍要上次住\n的那间天字第三号上房，碰巧这房并无住客，店小二算\n是白赚了五钱银子。韦小宝喝了杯茶，躺在炕上闭\n目关头养神，听得四下无声，拔出匕首，撬开墙洞，\n顺治皇帝交给他的那部经书好端端的便在\n洞里。他打开油布，检视无误，将砖块塞回墙洞。\n胖头陀已成自己下属，不必再叫待卫来护送经书，于\n是把经书揣入怀中，径向紫禁城\n走去。" 
+				 android:layout_width="wrap_content" 
+				 android:layout_gravity="fill_horizontal" 
+				 android:id="@+id/ebookpadcontent" 
+				 android:layout_height="wrap_content"></TextView>
+				</TableRow>			         
+			     </TableLayout>
+			    
+			  </ViewFlipper>
+			  
+				</LinearLayout>
+        <TableLayout android:id="@+id/TableLayoutebookpad1" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_alignParentRight="true" android:layout_alignParentLeft="true" android:layout_below="@+id/bake" android:layout_alignParentBottom="true"   android:shrinkColumns="0">
+            <TableRow android:id="@+id/menubar1" android:layout_height="wrap_content" android:layout_width="fill_parent" android:gravity="center_horizontal">
+                	<ImageButton android:id="@+id/homeebookpad" android:src="@drawable/home" android:layout_height="wrap_content" android:layout_width="wrap_content"></ImageButton>
+                	<ImageButton android:id="@+id/backeebookpad" android:src="@drawable/arrowleft" android:layout_height="wrap_content" android:layout_width="wrap_content"></ImageButton>
+                	<ProgressBar android:layout_gravity="center_vertical" android:id="@+id/progressBarebookpad" style="?android:attr/progressBarStyleHorizontal" android:layout_width="180dp"></ProgressBar>
+                	<ImageButton android:id="@+id/nextebookpad" android:src="@drawable/arrowright" android:layout_height="wrap_content" android:layout_width="wrap_content"></ImageButton>
+
+            </TableRow>
+        </TableLayout>
+</RelativeLayout>
